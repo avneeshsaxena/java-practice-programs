@@ -7,7 +7,7 @@ public class StringOccurance {
 		HashMap<String, Integer> hm = new HashMap<>();
 		
 		String s[]= str.split("");
-		
+		//comment added
 		for (String tempstring : s) 
 		{
 			
