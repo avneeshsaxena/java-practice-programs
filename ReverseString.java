@@ -5,12 +5,12 @@ public class ReverseString {
 		// TODO Auto-generated method stub
 		
 		String str = "Avneesh";
-		String rev="";
+		StringBuilder rev=new StringBuilder("");
 		int leng = str.length();
 			
 		for(int i=leng-1;i>=0;i--)
 		{
-			rev=rev+str.charAt(i);
+			rev.append(str.charAt(i));
 		}
 		System.out.println(rev);
 		
